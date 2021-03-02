@@ -39,8 +39,10 @@ import static org.apache.dubbo.common.constants.CommonConstants.COMMA_SPLIT_PATT
  */
 public class Main {
 
+    // dubbo容器配置
     public static final String CONTAINER_KEY = "dubbo.container";
 
+    // 优雅停机配置
     public static final String SHUTDOWN_HOOK_KEY = "dubbo.shutdown.hook";
 
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
